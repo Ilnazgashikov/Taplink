@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFFFFF;
+    padding-top: 15px;
+}
+.page-wrapper {
+    margin: auto;
+    max-width: 320px;
+    box-shadow: 0px 4px 20px #C0C0C0;
+    border-radius: 15px;
+}
+.hello {
+    font-weight:500;
+    font-size: 16px;
+}
+.text {
+    font-weight:400;
+    font-size: 12px; 
+}
+.header {
+    padding: 33px 35px 106px;
+    border-radius: 0px 0px 106.5px 106.5px;
+    background: url('../img/unsplash_WkfDrhxDMC8.png') no-repeat center / cover;
+}
