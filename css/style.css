@@ -4,23 +4,61 @@
 body {
     background-color: #FFFFFF;
     padding-top: 15px;
+    font-family: "Inter", sans-serif;
 }
 .page-wrapper {
+    overflow: hidden;
     margin: auto;
     max-width: 320px;
     box-shadow: 0px 4px 20px #C0C0C0;
     border-radius: 15px;
 }
+.container{
+    max-width: 250px;
+    margin: auto;
+}
 .hello {
-    font-weight:500;
     font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
 }
 .text {
-    font-weight:400;
-    font-size: 12px; 
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
 }
 .header {
+    color:#FFFFFF;
     padding: 33px 35px 106px;
     border-radius: 0px 0px 106.5px 106.5px;
-    background: url('../img/computer.png');
+    background: url('../img/unsplash_WkfDrhxDMC8.png') no-repeat center / cover;
+}
+.user {
+    margin-top: -58px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 0px rgba(177, 177, 177, 0.25);
+    background: rgb(255, 255, 255);
+}
+.avatar {
+    margin-top: -33px;
+    border-radius:50%;
+    border: 5px solid rgb(255, 255, 255);
+}
+.user-name {
+    margin-top: 1px;
+    margin-bottom: 2px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+.user-status {
+    margin-top: 4px;
+    padding-bottom: 25px;
+    color: rgb(177, 177, 177);
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 10px;
 }
